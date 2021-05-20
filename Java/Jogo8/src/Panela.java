@@ -1,9 +1,9 @@
 
-public class Panela {
+public class Panela extends Peca{
 
 	//========== ATRIBUTOS ==========// 
 	
-	
+	private String Panela = "Panela";
 	
 	//========== CONSTRUTOR - DEFAULT / ARGS ==========// 
 	
@@ -18,4 +18,5 @@ public class Panela {
 	
 	
 	//========== METODOS COMPLEMENTARES ==========//
+	
 }

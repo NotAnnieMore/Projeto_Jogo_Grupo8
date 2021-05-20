@@ -1,9 +1,9 @@
 
-public class Prato {
+public class Prato extends Peca{
 
 	//========== ATRIBUTOS ==========// 
 	
-	
+	private String Prato = "Prato";
 	
 	//========== CONSTRUTOR - DEFAULT / ARGS ==========// 
 	

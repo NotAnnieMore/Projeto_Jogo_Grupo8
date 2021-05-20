@@ -1,9 +1,9 @@
 
-public abstract  class Peca {
-	
+public class Pires extends Peca{
+
 	//========== ATRIBUTOS ==========// 
 	
-	
+	private String Pires = "Pires";
 	
 	//========== CONSTRUTOR - DEFAULT / ARGS ==========// 
 	
@@ -18,5 +18,4 @@ public abstract  class Peca {
 	
 	
 	//========== METODOS COMPLEMENTARES ==========//
-	
 }

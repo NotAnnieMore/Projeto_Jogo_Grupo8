@@ -1,9 +1,9 @@
 
-public class Copo {
+public class Copo extends Peca {
 
 	//========== ATRIBUTOS ==========// 
 	
-	
+	private String Copo = "Copo";
 	
 	//========== CONSTRUTOR - DEFAULT / ARGS ==========// 
 	
@@ -18,4 +18,5 @@ public class Copo {
 	
 	
 	//========== METODOS COMPLEMENTARES ==========//
+	
 }
