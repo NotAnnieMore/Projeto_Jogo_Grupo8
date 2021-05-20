@@ -1,5 +1,7 @@
 import java.util.*;
 
+import javax.swing.JOptionPane;
+
 public class Jogo {
 
 	public static void main(String[] args) {
@@ -13,7 +15,7 @@ public class Jogo {
         Peca peca2 = new Panela();
         Peca peca3 = new Prato();
         Peca peca4 = new Pires();
-        
+        JOptionPane.showInputDialog("TESTE");
         // Use add() method to add elements into the Stack
         stack.add(peca1);
         stack.add(peca2);

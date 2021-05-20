@@ -22,6 +22,7 @@ public class Panela extends Peca{
 	
 	
 	//========== METODOS COMPLEMENTARES ==========//
+	
 	@Override
 	public String toString() {
 		return "Panela";

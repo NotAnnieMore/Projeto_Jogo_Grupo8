@@ -21,7 +21,8 @@ public class Pires extends Peca{
 	
 	
 	
-	//========== METODOS COMPLEMENTARES ==========//	
+	//========== METODOS COMPLEMENTARES ==========//
+	
 	@Override
 	public String toString() {
 		return "Pires";

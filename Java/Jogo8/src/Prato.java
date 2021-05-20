@@ -22,7 +22,8 @@ public class Prato extends Peca{
 	
 	
 	//========== METODOS COMPLEMENTARES ==========//
-		@Override
+	
+	@Override
 	public String toString() {
 		return "Prato";
 	}
