@@ -7,7 +7,11 @@ public class Copo extends Peca {
 	
 	//========== CONSTRUTOR - DEFAULT / ARGS ==========// 
 	
-	
+	public Copo() {
+		
+	}
+
+
 	
 	//========== ACESSORES - ACESSOS ==========// 
 	
@@ -18,5 +22,8 @@ public class Copo extends Peca {
 	
 	
 	//========== METODOS COMPLEMENTARES ==========//
-	
+		@Override
+	public String toString() {
+		return "Copo";
+	}
 }

@@ -7,6 +7,10 @@ public class Panela extends Peca{
 	
 	//========== CONSTRUTOR - DEFAULT / ARGS ==========// 
 	
+	public Panela() {
+		
+	}
+
 	
 	
 	//========== ACESSORES - ACESSOS ==========// 
@@ -18,5 +22,8 @@ public class Panela extends Peca{
 	
 	
 	//========== METODOS COMPLEMENTARES ==========//
-	
+	@Override
+	public String toString() {
+		return "Panela";
+	}
 }

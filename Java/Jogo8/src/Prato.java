@@ -7,7 +7,11 @@ public class Prato extends Peca{
 	
 	//========== CONSTRUTOR - DEFAULT / ARGS ==========// 
 	
-	
+	public Prato() {
+		
+	}
+
+
 	
 	//========== ACESSORES - ACESSOS ==========// 
 	
@@ -18,4 +22,8 @@ public class Prato extends Peca{
 	
 	
 	//========== METODOS COMPLEMENTARES ==========//
+		@Override
+	public String toString() {
+		return "Prato";
+	}
 }

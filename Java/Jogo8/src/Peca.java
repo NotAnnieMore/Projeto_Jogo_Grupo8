@@ -1,9 +1,13 @@
 
 public abstract  class Peca {
+
+	
 	
 	//========== ATRIBUTOS ==========// 
 	
-	
+	public Peca() {
+		
+	}
 	
 	//========== CONSTRUTOR - DEFAULT / ARGS ==========// 
 	
@@ -18,5 +22,7 @@ public abstract  class Peca {
 	
 	
 	//========== METODOS COMPLEMENTARES ==========//
+	
+	
 	
 }

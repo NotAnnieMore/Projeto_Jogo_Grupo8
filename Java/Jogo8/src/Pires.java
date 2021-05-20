@@ -7,7 +7,11 @@ public class Pires extends Peca{
 	
 	//========== CONSTRUTOR - DEFAULT / ARGS ==========// 
 	
-	
+	public Pires() {
+		
+	}
+
+
 	
 	//========== ACESSORES - ACESSOS ==========// 
 	
@@ -17,5 +21,9 @@ public class Pires extends Peca{
 	
 	
 	
-	//========== METODOS COMPLEMENTARES ==========//
+	//========== METODOS COMPLEMENTARES ==========//	
+	@Override
+	public String toString() {
+		return "Pires";
+	}
 }
