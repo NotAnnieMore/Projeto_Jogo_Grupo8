@@ -1,5 +1,5 @@
 
-public abstract  class Peca {
+public abstract class Peca {
 
 	
 	
@@ -23,6 +23,14 @@ public abstract  class Peca {
 	
 	//========== METODOS COMPLEMENTARES ==========//
 	
+	public boolean Verificar() {
 	
-	
+		
+		return false;
+		
+		
+	}
+
 }
+
+

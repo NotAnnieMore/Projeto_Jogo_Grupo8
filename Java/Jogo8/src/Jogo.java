@@ -8,14 +8,14 @@ public class Jogo {
 	
 		  // Creating an empty Stack
         Stack<Peca> stack = new Stack<Peca>();
-  
+
         
         
         Peca peca1 = new Copo();
         Peca peca2 = new Panela();
         Peca peca3 = new Prato();
         Peca peca4 = new Pires();
-        JOptionPane.showInputDialog("TESTE");
+       
         // Use add() method to add elements into the Stack
         stack.add(peca1);
         stack.add(peca2);
@@ -44,7 +44,7 @@ public class Jogo {
         Fila1.add(peca1);
         Fila1.add(peca2);
         Fila1.add(peca4);
-  
+        Fila1.add(peca3);
         System.out.println(Fila1);
         
         System.out.println("==========================");  
@@ -66,8 +66,15 @@ public class Jogo {
         Peca primeiro = Fila1.peek();
         System.out.println("Primeiro- "+ primeiro);
         
+        System.out.println("=========================="); 
         
-
+        Collections.shuffle((List<?>) Fila1);;
+        System.out.println("Primeiro- "+ Fila1);
+        
+        System.out.println("=========================="); 
+        
+        Peca primeiro2 = Fila1.peek();
+        System.out.println("Primeiro- "+ primeiro2);
         
     }
 }
