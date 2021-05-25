@@ -1,5 +1,5 @@
 
-public abstract class Peca {
+public abstract class Peca extends Jogo{
 
 	
 	

@@ -1,5 +1,5 @@
 
-public class Score {
+public class Score extends Jogo{
 
 	//========== ATRIBUTOS ==========// 
 	
