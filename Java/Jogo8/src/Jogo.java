@@ -45,6 +45,7 @@ public class Jogo {
         Fila1.add(peca2);
         Fila1.add(peca4);
         Fila1.add(peca3);
+        Fila1.add(peca4);
         System.out.println(Fila1);
         
         System.out.println("==========================");  
@@ -70,9 +71,8 @@ public class Jogo {
         
         Collections.shuffle((List<?>) Fila1);;
         System.out.println("Primeiro- "+ Fila1);
-        
+ 
         System.out.println("=========================="); 
-        
         Peca primeiro2 = Fila1.peek();
         System.out.println("Primeiro- "+ primeiro2);
         
