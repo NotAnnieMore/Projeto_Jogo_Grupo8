@@ -9,7 +9,7 @@ public class Jogo {
 		  // Creating an empty Stack
         Stack<Peca> stack = new Stack<Peca>();
 
-        
+        Score score = new Score();
         
         Peca peca1 = new Copo();
         Peca peca2 = new Panela();
