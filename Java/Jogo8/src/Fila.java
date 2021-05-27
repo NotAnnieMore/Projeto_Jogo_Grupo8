@@ -1,4 +1,7 @@
+import java.util.Queue;
 
-public class Fila extends Jogo{
+public class Fila{
 
+	private  Queue<Peca> pecas;
+	
 }

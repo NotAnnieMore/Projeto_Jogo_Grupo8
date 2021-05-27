@@ -1,4 +1,8 @@
 
-public class Jogador extends Jogo{
+public class Jogador {
 
+	private Score pontuacao;
+	
+	
+	
 }
