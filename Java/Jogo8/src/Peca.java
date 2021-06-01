@@ -5,13 +5,13 @@ public abstract class Peca{
 	
 	//========== ATRIBUTOS ==========// 
 	
-	public Peca() {
-		
-	}
+
 	
 	//========== CONSTRUTOR - DEFAULT / ARGS ==========// 
 	
-	
+	public Peca() {
+		
+	}
 	
 	//========== ACESSORES - ACESSOS ==========// 
 	
