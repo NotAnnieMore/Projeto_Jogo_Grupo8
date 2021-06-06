@@ -13,6 +13,8 @@ public abstract class Peca{
 		
 	}
 	
+	
+	
 	//========== ACESSORES - ACESSOS ==========// 
 	
 	
@@ -23,13 +25,6 @@ public abstract class Peca{
 	
 	//========== METODOS COMPLEMENTARES ==========//
 	
-	public boolean Verificar() {
-	
-		
-		return false;
-		
-		
-	}
 
 }
 

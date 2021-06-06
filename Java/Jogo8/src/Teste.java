@@ -74,6 +74,7 @@ public class Teste {
         System.out.println("=========================="); 
         Peca primeiro2 = Fila1.peek();
         System.out.println("Primeiro- "+ primeiro2);
-        
+        System.out.println("=========================="); 
+    
     }
 }

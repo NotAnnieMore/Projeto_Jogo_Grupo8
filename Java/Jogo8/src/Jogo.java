@@ -1,3 +1,5 @@
+import java.util.Queue;
+import java.util.Stack;
 
 public class Jogo {
 
@@ -51,7 +53,10 @@ public class Jogo {
 	
 	//========== COMPORTAMENTOS ==========// 
 	
-	
+	public void adicionar() {
+		getFila().getPecas().peek();
+		getPilha().adicionar(fila.getPecas());
+	}
 	
 	//========== METODOS COMPLEMENTARES ==========//
 	

@@ -21,8 +21,6 @@ public class Score {
 		}
 	}
 
-
-	
 	//========== METODOS COMPLEMENTARES ==========//
 	
 		@Override
