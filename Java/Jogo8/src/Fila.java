@@ -63,6 +63,7 @@ public class Fila{
 		
 	}
 	
+	
 	public void remover() {
 		pecas.remove(pecas.peek());
     	//pecas.remove();
@@ -73,7 +74,9 @@ public class Fila{
     }
     
     public void mostrarFila() {
+    	System.out.println("================================");
     	System.out.println(pecas);
+    	System.out.println("================================");
     }
     
     

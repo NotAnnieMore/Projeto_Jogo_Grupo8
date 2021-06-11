@@ -3,7 +3,7 @@ public class Score {
 
 	//========== ATRIBUTOS ==========// 
 	
-	private int pontuacao = 0;
+	private int pontuacao = 50;
 	
 	//========== CONSTRUTOR - DEFAULT / ARGS ==========// 
 	
@@ -25,7 +25,7 @@ public class Score {
 	
 		@Override
 	public String toString() {
-		return "Score [pontuacao=" + pontuacao + "]";
+		return "[Pontuação = " + pontuacao + " ]";
 	}
 	
 }

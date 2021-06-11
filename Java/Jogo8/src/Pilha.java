@@ -1,4 +1,5 @@
 import java.util.Iterator;
+import java.util.ListIterator;
 import java.util.Queue;
 import java.util.Stack;
 
@@ -47,17 +48,35 @@ public class Pilha {
 	
 	public void torre() {
 		Iterator torre = pilha.iterator();
-		while (torre.hasNext()) {
-			System.out.println(torre.next());
-		}
-
+//		System.out.println("Pilha:");
+//		while (torre.hasNext()) {
+//			System.out.println(torre.next());
+//		}
+		
+		ListIterator<Peca> listIterator = pilha.listIterator();
+		System.out.print("Peças utilizadas: ");
+        while (listIterator.hasNext()) {
+            System.out.print(listIterator.next() + " | ");  
+        }
+        System.out.println(" ");
+        System.out.println(" ");
+		System.out.println("Pilha:");
+        while (listIterator.hasPrevious()) {
+            System.out.println(listIterator.previous());
+        }
+        System.out.println(" ");
 	}
 
-	
+	public void fimTorre(Queue<Peca> pecas) {
+		
+		int tamanho = pilha.size();
+		
+	}
 	
 	public void push(Queue<Peca> pecas) {
 		//pilha.push(pecas.peek());
 		pilha.add(pecas.peek());
+		
 		
 		
 //	    while (!pecas.isEmpty()) {
