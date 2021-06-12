@@ -93,7 +93,7 @@
   </class>  
   <class id="11" language="java" name="Main" project="Jogo8" file="/Jogo8/src/Main.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1043" y="447"/>    
+    <position height="-1" width="-1" x="1051" y="469"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -133,58 +133,46 @@
     <end type="TARGET" refId="5"/>  
   </generalization>  
   <association id="20">    
-    <end type="SOURCE" refId="11" navigable="false">      
-      <attribute id="21" name="jogo">        
-        <position height="0" width="0" x="104" y="20"/>      
-      </attribute>      
-      <multiplicity id="22" minimum="0" maximum="1">        
-        <position height="0" width="0" x="104" y="20"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="6" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="23">    
     <end type="SOURCE" refId="10" navigable="false">      
-      <attribute id="24" name="pecas">        
+      <attribute id="21" name="pecas">        
         <position height="0" width="0" x="-2" y="67"/>      
       </attribute>      
-      <multiplicity id="25" minimum="0" maximum="2147483647">        
+      <multiplicity id="22" minimum="0" maximum="2147483647">        
         <position height="0" width="0" x="-2" y="67"/>      
       </multiplicity>    
     </end>    
     <end type="TARGET" refId="5" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="26">    
+  <association id="23">    
     <end type="SOURCE" refId="6" navigable="false">      
-      <attribute id="27" name="pilha">        
+      <attribute id="24" name="pilha">        
         <position height="0" width="0" x="108" y="214"/>      
       </attribute>      
-      <multiplicity id="28" minimum="0" maximum="1">        
+      <multiplicity id="25" minimum="0" maximum="1">        
         <position height="0" width="0" x="108" y="214"/>      
       </multiplicity>    
     </end>    
     <end type="TARGET" refId="8" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="29">    
+  <association id="26">    
     <end type="SOURCE" refId="6" navigable="false">      
-      <attribute id="30" name="jogador">        
+      <attribute id="27" name="jogador">        
         <position height="0" width="0" x="256" y="20"/>      
       </attribute>      
-      <multiplicity id="31" minimum="0" maximum="1">        
+      <multiplicity id="28" minimum="0" maximum="1">        
         <position height="0" width="0" x="256" y="20"/>      
       </multiplicity>    
     </end>    
     <end type="TARGET" refId="7" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="32">    
+  <generalization id="29">    
     <end type="SOURCE" refId="4"/>    
     <end type="TARGET" refId="5"/>  
   </generalization>  
-  <generalization id="33">    
+  <generalization id="30">    
     <end type="SOURCE" refId="3"/>    
     <end type="TARGET" refId="5"/>  
   </generalization>  

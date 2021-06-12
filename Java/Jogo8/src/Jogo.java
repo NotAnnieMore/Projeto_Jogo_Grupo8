@@ -14,7 +14,7 @@ public class Jogo {
 	// ========== CONSTRUTOR - DEFAULT / ARGS ==========//
 
 	public Jogo() {
-
+		rodarJogo();
 	}
 
 	public Jogo(Jogador jogador) {
@@ -22,6 +22,12 @@ public class Jogo {
 		this.jogador = jogador;
 	}
 
+	public Jogo(Jogo jogo) {
+		this.fila = getFila();
+		this.jogador = getJogador();
+		this.pilha = getPilha();
+	}
+	
 	// ========== ACESSORES - ACESSOS ==========//
 
 	public Pilha getPilha() {
@@ -46,11 +52,11 @@ public class Jogo {
 		
 		String newLine = System.getProperty("line.separator");
 		JOptionPane.showMessageDialog(null, "REGRAS:" + newLine
-		+ newLine + "* O jogador comeÃ§a com 10 movimentos, onde cada objeto " 
-				+ "descartado, serÃ¡ descontado com -1 ponto. " + newLine 
+		+ newLine + "* O jogador começa com 10 movimentos, onde cada objeto " 
+				+ "descartado, será descontado com -1 ponto. " + newLine 
 				+ "* Caso o jogador consiga empilhar todos os objetos devidamente numa ordem "
 				+ "correta, o jogo acaba." + newLine +
-				newLine+ "* As ordens corretas de empilhamento sÃ£o:"
+				newLine+ "* As ordens corretas de empilhamento são:"
 				+ newLine + " - " + " 1." +" " + " O Prato pode ser empilhado em cima da Panela, Pires ou outro Prato."
 				+ newLine + " - " + " 2." +" " + " A Panela pode ser empilhada em cima do Prato, Pires ou outro Panela."
 				+ newLine + " - " + " 3." +" " + " O Copo pode ser empilhado em cima do Prato, Pires ou outro Copo."
@@ -84,7 +90,7 @@ public class Jogo {
 	public static boolean escolha(String nomeJogador) {
 		
 		int resposta = JOptionPane.YES_NO_OPTION;
-		if (JOptionPane.showConfirmDialog(null, "Deseja colocar o Primeiro Objeto?", "OpÃ§Ãµes",
+		if (JOptionPane.showConfirmDialog(null, "Deseja colocar o Primeiro Objeto?", "Opções",
 				JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION) {
 
 			if (pilha.getPilha().size() > 0) {
@@ -136,4 +142,16 @@ public class Jogo {
 		return "Jogo [jogador=" + jogador + "]";
 	}
 
+	public Jogo clone() {
+		return new Jogo(this);
+	}
+	
+	public boolean equals(Jogo jogo) {
+		if(jogo == null)
+			return false;
+		else if(jogo.equals(jogo.getClass()))
+			return true;
+		else
+			return false;
+	}
 }
