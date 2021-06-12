@@ -3,7 +3,7 @@
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="Pires" project="Jogo8" file="/Jogo8/src/Pires.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="64" y="514"/>    
+    <position height="-1" width="-1" x="60" y="581"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -12,7 +12,7 @@
   </class>  
   <class id="2" language="java" name="Copo" project="Jogo8" file="/Jogo8/src/Copo.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="185" y="517"/>    
+    <position height="-1" width="-1" x="183" y="584"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -21,7 +21,7 @@
   </class>  
   <class id="3" language="java" name="Panela" project="Jogo8" file="/Jogo8/src/Panela.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="312" y="519"/>    
+    <position height="-1" width="-1" x="310" y="586"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -30,7 +30,7 @@
   </class>  
   <class id="4" language="java" name="Prato" project="Jogo8" file="/Jogo8/src/Prato.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="432" y="520"/>    
+    <position height="-1" width="-1" x="437" y="590"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -39,7 +39,7 @@
   </class>  
   <class id="5" language="java" name="Peca" project="Jogo8" file="/Jogo8/src/Peca.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="233" y="313"/>    
+    <position height="-1" width="-1" x="231" y="380"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -48,7 +48,7 @@
   </class>  
   <class id="6" language="java" name="Jogo" project="Jogo8" file="/Jogo8/src/Jogo.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="559" y="96"/>    
+    <position height="-1" width="-1" x="663" y="116"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -57,7 +57,7 @@
   </class>  
   <class id="7" language="java" name="Jogador" project="Jogo8" file="/Jogo8/src/Jogador.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="763" y="95"/>    
+    <position height="-1" width="-1" x="1019" y="115"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -66,7 +66,7 @@
   </class>  
   <class id="8" language="java" name="Pilha" project="Jogo8" file="/Jogo8/src/Pilha.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="615" y="419"/>    
+    <position height="-1" width="-1" x="662" y="528"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -75,7 +75,7 @@
   </class>  
   <class id="9" language="java" name="Score" project="Jogo8" file="/Jogo8/src/Score.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="965" y="92"/>    
+    <position height="-1" width="-1" x="1240" y="112"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -84,7 +84,7 @@
   </class>  
   <class id="10" language="java" name="Fila" project="Jogo8" file="/Jogo8/src/Fila.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="331" y="100"/>    
+    <position height="-1" width="-1" x="233" y="113"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -93,7 +93,7 @@
   </class>  
   <class id="11" language="java" name="Main" project="Jogo8" file="/Jogo8/src/Main.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="958" y="410"/>    
+    <position height="-1" width="-1" x="1043" y="447"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -107,97 +107,85 @@
   <association id="13">    
     <end type="SOURCE" refId="6" navigable="false">      
       <attribute id="14" name="fila">        
-        <position height="0" width="0" x="0" y="0"/>      
+        <position height="0" width="0" x="-98" y="13"/>      
       </attribute>      
       <multiplicity id="15" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
+        <position height="0" width="0" x="-98" y="13"/>      
       </multiplicity>    
     </end>    
     <end type="TARGET" refId="10" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <association id="16">    
-    <end type="SOURCE" refId="6" navigable="false">      
-      <attribute id="17" name="jogador">        
-        <position height="0" width="0" x="0" y="0"/>      
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="17" name="pontuacao">        
+        <position height="0" width="0" x="275" y="20"/>      
       </attribute>      
       <multiplicity id="18" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="7" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="19">    
-    <end type="SOURCE" refId="11" navigable="false">      
-      <attribute id="20" name="jogo"/>      
-      <multiplicity id="21" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="6" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <generalization id="22">    
-    <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="5"/>  
-  </generalization>  
-  <association id="23">    
-    <end type="SOURCE" refId="11" navigable="false">      
-      <attribute id="24" name="pilha"/>      
-      <multiplicity id="25" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="8" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="26">    
-    <end type="SOURCE" refId="7" navigable="false">      
-      <attribute id="27" name="pontuacao">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="28" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
+        <position height="0" width="0" x="275" y="20"/>      
       </multiplicity>    
     </end>    
     <end type="TARGET" refId="9" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="29">    
-    <end type="SOURCE" refId="4"/>    
+  <generalization id="19">    
+    <end type="SOURCE" refId="2"/>    
     <end type="TARGET" refId="5"/>  
   </generalization>  
-  <association id="30">    
+  <association id="20">    
     <end type="SOURCE" refId="11" navigable="false">      
-      <attribute id="31" name="fila"/>      
-      <multiplicity id="32" minimum="0" maximum="1"/>    
+      <attribute id="21" name="jogo">        
+        <position height="0" width="0" x="104" y="20"/>      
+      </attribute>      
+      <multiplicity id="22" minimum="0" maximum="1">        
+        <position height="0" width="0" x="104" y="20"/>      
+      </multiplicity>    
     </end>    
-    <end type="TARGET" refId="10" navigable="true"/>    
+    <end type="TARGET" refId="6" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="33">    
+  <association id="23">    
     <end type="SOURCE" refId="10" navigable="false">      
-      <attribute id="34" name="pecas">        
-        <position height="0" width="0" x="0" y="0"/>      
+      <attribute id="24" name="pecas">        
+        <position height="0" width="0" x="-2" y="67"/>      
       </attribute>      
-      <multiplicity id="35" minimum="0" maximum="2147483647">        
-        <position height="0" width="0" x="0" y="0"/>      
+      <multiplicity id="25" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="-2" y="67"/>      
       </multiplicity>    
     </end>    
     <end type="TARGET" refId="5" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="36">    
+  <association id="26">    
     <end type="SOURCE" refId="6" navigable="false">      
-      <attribute id="37" name="pilha">        
-        <position height="0" width="0" x="61" y="105"/>      
+      <attribute id="27" name="pilha">        
+        <position height="0" width="0" x="108" y="214"/>      
       </attribute>      
-      <multiplicity id="38" minimum="0" maximum="1">        
-        <position height="0" width="0" x="61" y="105"/>      
+      <multiplicity id="28" minimum="0" maximum="1">        
+        <position height="0" width="0" x="108" y="214"/>      
       </multiplicity>    
     </end>    
     <end type="TARGET" refId="8" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="39">    
-    <end type="SOURCE" refId="2"/>    
+  <association id="29">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="30" name="jogador">        
+        <position height="0" width="0" x="256" y="20"/>      
+      </attribute>      
+      <multiplicity id="31" minimum="0" maximum="1">        
+        <position height="0" width="0" x="256" y="20"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="32">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <generalization id="33">    
+    <end type="SOURCE" refId="3"/>    
     <end type="TARGET" refId="5"/>  
   </generalization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 

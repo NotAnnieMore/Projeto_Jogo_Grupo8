@@ -58,11 +58,6 @@ public class Fila{
 			break;
 		}	
     }
-
-	public void adicionarPeca() {
-		
-	}
-	
 	
 	public void remover() {
 		pecas.remove(pecas.peek());
@@ -79,12 +74,6 @@ public class Fila{
     	System.out.println("================================");
     }
     
-    
-    
-    
-    public void baralhar() {
-    	Collections.shuffle((List<?>) pecas);
-    }
 	//========== METODOS COMPLEMENTARES ==========//
 
 	@Override

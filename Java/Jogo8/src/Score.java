@@ -25,7 +25,7 @@ public class Score {
 	
 		@Override
 	public String toString() {
-		return "[Pontuação = " + pontuacao + " ]";
+		return "[PontuaÃ§Ã£o = " + pontuacao + " ]";
 	}
 	
 }
