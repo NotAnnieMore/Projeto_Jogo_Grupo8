@@ -1,3 +1,5 @@
+import static org.junit.jupiter.api.Assertions.assertThrows;
+
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
@@ -100,6 +102,7 @@ public class Fila{
 			   break;
 		default:
 			break;
+			
 		}	
     }
 	

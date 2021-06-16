@@ -67,7 +67,8 @@ public class Pilha {
 	 /**
      * 
      * Expõe e gera o output das decisões do jogador na consola em formato de torre / pilha.
-     * O <b>listIterator.hasNext</b> é o responsável por mostrar na consola as peças que o jogador utilizou
+     * O <b>listIterator.hasNext</b> é o responsável por mostrar na consola as peças que o jogador utilizou.
+     * O <b>listIterator.hasPrevious</b> é o responsável por mostrar na consola as peças referidas pelo .hasNext.
      * 
      */
 	public void torre() {
